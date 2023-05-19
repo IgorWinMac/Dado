@@ -15,9 +15,9 @@ public class Dado {
 		int bonus2 = 2;
 		int bonus6 = 6;
 
-		dado1 = gerador.nextInt(5) + 1;
-		dado2 = gerador.nextInt(5) + 1;
-		dado3 = gerador.nextInt(5) + 1;
+		dado1 = gerador.nextInt(6) + 1;
+		dado2 = gerador.nextInt(6) + 1;
+		dado3 = gerador.nextInt(6) + 1;
 
 		System.out.println("Dado 1: " + dado1);
 		System.out.println("Dado 2: " + dado2);
